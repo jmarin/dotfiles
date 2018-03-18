@@ -109,9 +109,9 @@ let g:deoplete#enable_at_startup=1
 set hidden
 let g:racer_cmd = "~/.cargo/bin/racer"
 let g:racer_experimental_completer = 1
-au FileType rust nmap <leader>rx <Plug>(rust-doc)
-au FileType rust nmap <leader>rd <Plug>(rust-def)
-au FileType rust nmap <leader>rs <Plug>(rust-def-split)
+au FileType rust nmap gd <Plug>(rust-def)
+au FileType rust nmap gs <Plug>(rust-def-split)
+au FileType rust nmap gx <Plug>(rust-def-vertical)
 
 " Neomake
 " Gross hack to stop Neomake running when exitting because it creates a zombie cargo check process
