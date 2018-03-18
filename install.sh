@@ -30,12 +30,16 @@ function checkedlink {
     fi
 }
 
+if [ ! -d ~/.tmux/plugins/tpm ]; then
+  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
 srcdir=~/.dotfiles
 destdir=~
 
 #checkedlink .bashrc
 #checkedlink .bash_profile
-#checkedlink .tmux.conf
+checkedlink .tmux.conf
 #checkedlink .vimrc
 #checkedlink .config/nvim/init.vim
 checkedlink .zshrc
