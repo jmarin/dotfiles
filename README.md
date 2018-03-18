@@ -1,1 +1,3 @@
 # dotfiles
+
+## Vim + tmux configuration
