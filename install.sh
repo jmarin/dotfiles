@@ -41,7 +41,7 @@ destdir=~
 #checkedlink .bash_profile
 checkedlink .tmux.conf
 #checkedlink .vimrc
-#checkedlink .config/nvim/init.vim
+checkedlink .config/nvim/init.vim
 checkedlink .zshrc
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
