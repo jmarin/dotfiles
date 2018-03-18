@@ -43,5 +43,6 @@ checkedlink .tmux.conf
 #checkedlink .vimrc
 checkedlink .config/nvim/init.vim
 checkedlink .zshrc
+checkedlink .ctags
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
