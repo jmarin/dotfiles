@@ -17,5 +17,8 @@ Plug 'neomake/neomake', { 'for': ['rust'] }
 Plug 'airblade/vim-gitgutter'
 Plug 'w0rp/ale'
 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+nnoremap <c-p> :FZF<cr>
 
 call plug#end()
