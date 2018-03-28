@@ -13,6 +13,11 @@ ZSH_THEME="pygmalion"
 
 bindkey -e
 
+# env
+if [[ -e /usr/libexec/java_home ]]; then
+  export JAVA_HOME=`/usr/libexec/java_home`
+fi
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
