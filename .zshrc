@@ -69,7 +69,8 @@ fi
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git,
-  tmux
+  tmux,
+  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
